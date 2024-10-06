@@ -1,4 +1,8 @@
-
+Authors 
+Fatma Fathi Abdelhaleem SlackID: @FatmaFathi
+Menatalla Hisham Hassan Attia SlackID: @Menna
+Esraa Ahmed Mohamed SlackID: @EsZo
+Code found in: https://github.com/EZBBHL/HackBio-Cancer-Internship-Stage-4/blob/main/Stage%204%20Script.R
 
 **Glioma Classification Using kNN and Methylation Clustering**
 
@@ -39,8 +43,8 @@ To classify the glioma subtypes, we applied the k-Nearest Neighbors (kNN) algori
 3\. Elbow Method: 
 
    \- This was used to determine the optimal number of clusters by plotting inertia against k values (see Figure 1).
+![Picture1](https://github.com/user-attachments/assets/6b80632c-0d9a-473c-b41f-f2fab6743ab5)
 
-![A graph with a lineDescription automatically generated][image1]
 
 Fig. 1: Elbow Method indicates the optimal number of clusters 
 
