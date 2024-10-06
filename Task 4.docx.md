@@ -1,7 +1,11 @@
 Authors 
+
 Fatma Fathi Abdelhaleem SlackID: @FatmaFathi
+
 Menatalla Hisham Hassan Attia SlackID: @Menna
+
 Esraa Ahmed Mohamed SlackID: @EsZo
+
 Code found in: https://github.com/EZBBHL/HackBio-Cancer-Internship-Stage-4/blob/main/Stage%204%20Script.R
 
 **Glioma Classification Using kNN and Methylation Clustering**
@@ -64,13 +68,15 @@ Fig. 1: Elbow Method indicates the optimal number of clusters 
 
    \- PCA visualized the clusters based on IDH status (mutant and wild-type), showing that IDH mutations are the primary drivers of variance in the data (see Figure 2). However, some overlap remained, likely due to glioma subtype variability.
 
-![][image2]Fig. 2: PCA shows clusters for IDH mutant 
+![Picture2](https://github.com/user-attachments/assets/75c1819d-0b49-4364-86ad-2c225d7f9f63)
+
+Fig. 2: PCA shows clusters for IDH mutant 
 
 **\- Cluster Interpretation:** 
 
    \- The clustering showed a split between IDH-mutant and IDH wild-type groups, aligning with known biological distinctions in gliomas.
 
-![][image3]
+![Picture3](https://github.com/user-attachments/assets/e38c973b-501c-4aba-bcbe-105293903035)
 
 Fig. 3: Cluster characteristics by grouping with IDH status and LGG status
 
@@ -84,13 +90,16 @@ Fig. 3: Cluster characteristics by grouping with IDH status and LGG status
 
 To further investigate the differences between IDH-mutant and IDH wild-type samples, a volcano plot was generated, highlighting up and downregulated CPG sites.
 
-![][image4]
+![Picture4](https://github.com/user-attachments/assets/fe239e7a-082c-4eb3-a0c2-df439ff8cbac)
 
 Fig. 4: Volcano Plot for Mutant vs. Wild-Type
 
  **5\. Pathway Enrichment Analysis (Reactome)**
 
 An overrepresentation analysis was performed using the Reactome database to identify pathways significantly enriched in genes associated with the CpG sites.
+
+![Picture5](https://github.com/user-attachments/assets/5f61856d-7daf-412c-b950-6b464b137b1b)
+
 
 Figure 5: Overrepresentation Analysis
 
